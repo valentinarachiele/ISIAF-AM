@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: yellow;
+}
+
+h1#corsivo {
+  font-style: italic;
+}
+
+.rosso {
+  color: rgba(23, 250, 47, .5);
+  /* il pacchetto per Atom per scegliere i colori si chiama "color-picker" */
+}
+
+.menu li {
+  display: inline;
+  padding: 10px;
+  border-right: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+  /*text-transform: uppercase;*/
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+  /*border-bottom: 1px solid green;*/
+}
+
+.menu li:last-of-type {
+  border: 0;
+}
+
+img.micio {
+  border: 15px dotted magenta;
+  padding: 20px;
+  margin: 50px;
+}
