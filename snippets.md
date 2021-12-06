@@ -6,3 +6,12 @@
     visibility: hidden;
     display: none;
 }`
+
+##### Nascondere un qualsiasi elemento con i CSS. La classe "nascosto" andrà attribuita all'elemento, ad esempio così:
+
+`<h1 class="nascosto">Non puoi vedermi.</h1>`
+
+`.nascosto {
+    visibility: hidden; /*non mostrare l'elemento nemmeno agli screen reader*/
+    display: none; /*non mostrare l'elemento agli occhi di chi vede il sito*/
+}`
