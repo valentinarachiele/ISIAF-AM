@@ -7,7 +7,7 @@
     display: none;
 }`
 
-##### Nascondere un qualsiasi elemento con i CSS. La classe "nascosto" andrà attribuita all'elemento, ad esempio così:
+###### Nascondere un qualsiasi elemento con i CSS. La classe "nascosto" andrà attribuita all'elemento, ad esempio così:
 
 `<h1 class="nascosto">Non puoi vedermi.</h1>`
 
